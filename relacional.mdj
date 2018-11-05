@@ -329,7 +329,7 @@
 											"font": "Arial;13;1",
 											"left": 1085,
 											"top": 599,
-											"width": 118.751953125,
+											"width": 124.3125,
 											"height": 13,
 											"text": "Votos"
 										},
@@ -364,7 +364,7 @@
 									"font": "Arial;13;0",
 									"left": 1080,
 									"top": 592,
-									"width": 128.751953125,
+									"width": 134.3125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFm4XR/e88tv6I="
@@ -391,19 +391,19 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAFm4XTxVc9XlCA=",
+											"_id": "AAAAAAFm5R+YWciWUJY=",
 											"_parent": {
 												"$ref": "AAAAAAFm4XR/e88x6WQ="
 											},
 											"model": {
-												"$ref": "AAAAAAFm4XTxIM9U6w4="
+												"$ref": "AAAAAAFm5R+YEciTHDI="
 											},
 											"font": "Arial;13;0",
 											"left": 1085,
 											"top": 622,
-											"width": 118.751953125,
+											"width": 124.3125,
 											"height": 13,
-											"text": "Id {PK}",
+											"text": "Id_Consulta {PK}{FK}",
 											"horizontalAlignment": 0
 										},
 										{
@@ -418,9 +418,9 @@
 											"font": "Arial;13;0",
 											"left": 1085,
 											"top": 637,
-											"width": 118.751953125,
+											"width": 124.3125,
 											"height": 13,
-											"text": "Tipo_CS {PK} {FK}",
+											"text": "Tipo_CS {FK}",
 											"horizontalAlignment": 0
 										},
 										{
@@ -435,7 +435,7 @@
 											"font": "Arial;13;0",
 											"left": 1085,
 											"top": 652,
-											"width": 118.751953125,
+											"width": 124.3125,
 											"height": 13,
 											"text": "Rol_CS {FK}",
 											"horizontalAlignment": 0
@@ -452,7 +452,7 @@
 											"font": "Arial;13;0",
 											"left": 1085,
 											"top": 667,
-											"width": 118.751953125,
+											"width": 124.3125,
 											"height": 13,
 											"text": "Rol_Consultas {FK}",
 											"horizontalAlignment": 0
@@ -469,7 +469,7 @@
 											"font": "Arial;13;0",
 											"left": 1085,
 											"top": 682,
-											"width": 118.751953125,
+											"width": 124.3125,
 											"height": 13,
 											"text": "Tipo_Consultas {FK}",
 											"horizontalAlignment": 0
@@ -478,7 +478,7 @@
 									"font": "Arial;13;0",
 									"left": 1080,
 									"top": 617,
-									"width": 128.751953125,
+									"width": 134.3125,
 									"height": 83
 								},
 								{
@@ -534,8 +534,8 @@
 							"containerChangeable": true,
 							"left": 1080,
 							"top": 592,
-							"width": 128.751953125,
-							"height": 108,
+							"width": 134.3125,
+							"height": 123,
 							"showVisibility": false,
 							"nameCompartment": {
 								"$ref": "AAAAAAFm4XR/e88sraE="
@@ -576,7 +576,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 951,
-									"top": 624,
+									"top": 628,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -597,7 +597,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 951,
-									"top": 609,
+									"top": 613,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -617,8 +617,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 951,
-									"top": 654,
+									"left": 950,
+									"top": 657,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -638,8 +638,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 849,
-									"top": 624,
+									"left": 850,
+									"top": 626,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -660,7 +660,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 852,
-									"top": 610,
+									"top": 613,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -680,7 +680,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 842,
-									"top": 651,
+									"top": 653,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -703,7 +703,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1053,
-									"top": 624,
+									"top": 630,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -722,8 +722,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1050,
-									"top": 610,
+									"left": 1051,
+									"top": 617,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -742,7 +742,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1048,
-									"top": 651,
+									"top": 658,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -793,7 +793,7 @@
 								"$ref": "AAAAAAFm4XJOgM7lBGc="
 							},
 							"lineStyle": 1,
-							"points": "824:645;1079:645",
+							"points": "824:647;1079:652",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFm4XgY2s9rl/I="
@@ -1992,7 +1992,7 @@
 											"top": 437,
 											"width": 96.83349609375,
 											"height": 13,
-											"text": "Id_Prov {PK}",
+											"text": "Id_Prov",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2009,7 +2009,7 @@
 											"top": 452,
 											"width": 96.83349609375,
 											"height": 13,
-											"text": "Tipo {PK}",
+											"text": "Tipo",
 											"horizontalAlignment": 0
 										},
 										{
@@ -3965,8 +3965,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1159,
-									"top": 547,
+									"left": 1161,
+									"top": 546,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3986,8 +3986,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1174,
-									"top": 547,
+									"left": 1176,
+									"top": 546,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4007,8 +4007,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1130,
-									"top": 546,
+									"left": 1132,
+									"top": 547,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4028,8 +4028,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1160,
-									"top": 535,
+									"left": 1162,
+									"top": 534,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -4049,8 +4049,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1173,
-									"top": 538,
+									"left": 1175,
+									"top": 537,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -4070,7 +4070,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1132,
+									"left": 1134,
 									"top": 530,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -4091,7 +4091,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1159,
+									"left": 1162,
 									"top": 559,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -4111,8 +4111,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1173,
-									"top": 557,
+									"left": 1175,
+									"top": 556,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -4131,7 +4131,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1132,
+									"left": 1134,
 									"top": 563,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -4179,7 +4179,7 @@
 								"$ref": "AAAAAAFm4ZD7G9gU0rM="
 							},
 							"lineStyle": 1,
-							"points": "1146:515;1144:591",
+							"points": "1147:515;1147:591",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFm4cl5lyM8A38="
@@ -4471,7 +4471,7 @@
 											"font": "Arial;13;1",
 											"left": 1301,
 											"top": 423,
-											"width": 123.5888671875,
+											"width": 124.28076171875,
 											"height": 13,
 											"text": "Consulta_Tags"
 										},
@@ -4506,7 +4506,7 @@
 									"font": "Arial;13;0",
 									"left": 1296,
 									"top": 416,
-									"width": 133.5888671875,
+									"width": 134.28076171875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFm4gBGvyV5CCU="
@@ -4543,7 +4543,7 @@
 											"font": "Arial;13;0",
 											"left": 1301,
 											"top": 446,
-											"width": 123.5888671875,
+											"width": 124.28076171875,
 											"height": 13,
 											"text": "id_Consulta {PK}{FK}",
 											"horizontalAlignment": 0
@@ -4560,7 +4560,7 @@
 											"font": "Arial;13;0",
 											"left": 1301,
 											"top": 461,
-											"width": 123.5888671875,
+											"width": 124.28076171875,
 											"height": 13,
 											"text": "Id_Tags {PK}{FK}",
 											"horizontalAlignment": 0
@@ -4569,7 +4569,7 @@
 									"font": "Arial;13;0",
 									"left": 1296,
 									"top": 441,
-									"width": 133.5888671875,
+									"width": 134.28076171875,
 									"height": 38
 								},
 								{
@@ -4625,7 +4625,7 @@
 							"containerChangeable": true,
 							"left": 1296,
 							"top": 416,
-							"width": 133.5888671875,
+							"width": 134.28076171875,
 							"height": 73,
 							"showVisibility": false,
 							"nameCompartment": {
@@ -5343,12 +5343,11 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAFm4XTxIM9U6w4=",
+							"_id": "AAAAAAFm5R+YEciTHDI=",
 							"_parent": {
 								"$ref": "AAAAAAFm4XR/es8pff4="
 							},
-							"name": "Id {PK}",
-							"type": ""
+							"name": "Id_Consulta {PK}{FK}"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5356,8 +5355,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4XR/es8pff4="
 							},
-							"name": "Tipo_CS {PK} {FK}",
-							"type": ""
+							"name": "Tipo_CS {FK}"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5479,8 +5477,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4YgKcND3KfU="
 							},
-							"name": "Fecha_Inicio {PK}",
-							"type": ""
+							"name": "Fecha_Inicio {PK}"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5488,8 +5485,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4YgKcND3KfU="
 							},
-							"name": "Fecha_Termino {PK}",
-							"type": ""
+							"name": "Fecha_Termino {PK}"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5639,7 +5635,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4ZD7G9gSO+I="
 							},
-							"name": "Id_Prov {PK}"
+							"name": "Id_Prov"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5647,8 +5643,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4ZD7G9gSO+I="
 							},
-							"name": "Tipo {PK}",
-							"type": ""
+							"name": "Tipo"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5674,7 +5669,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4ZD7G9gSO+I="
 							},
-							"name": "Comentario"
+							"name": "Comentario",
+							"type": ""
 						}
 					]
 				},
@@ -5942,7 +5938,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4f+cpyBVEQ4="
 							},
-							"name": "Id {PK}"
+							"name": "Id {PK}",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5950,7 +5947,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4f+cpyBVEQ4="
 							},
-							"name": "Nombre"
+							"name": "Nombre",
+							"type": ""
 						}
 					]
 				},
@@ -5999,7 +5997,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4gBGvyV1cD4="
 							},
-							"name": "id_Consulta {PK}{FK}"
+							"name": "id_Consulta {PK}{FK}",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6007,7 +6006,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFm4gBGvyV1cD4="
 							},
-							"name": "Id_Tags {PK}{FK}"
+							"name": "Id_Tags {PK}{FK}",
+							"type": ""
 						}
 					]
 				}
